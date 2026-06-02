@@ -521,7 +521,7 @@ apply Service "Bareos tape health " for (label => config in host.vars.bareos_tap
   vars.notification_interval = 24h
   check_command = "check_bareos_tape"
 
-  vars.bareos_dir          = host.vars.bareos_dir ? host.vars.bareos_dir : "birke.wsl.ch"
+  vars.bareos_dir          = host.vars.bareos_dir ? host.vars.bareos_dir : "bareos-dir.example.com"
   vars.bareos_nrpe_port    = host.vars.bareos_nrpe_port ? host.vars.bareos_nrpe_port : 5666
   vars.bareos_nrpe_timeout = host.vars.bareos_nrpe_timeout ? host.vars.bareos_nrpe_timeout : 10
 
