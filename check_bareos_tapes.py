@@ -5,6 +5,8 @@
 #
 # Repository: https://github.com/Nemester/check-bareos-tape
 #
+# Copyright (C) 2026 Manuel Sonder
+#
 # This plugin checks the lifecycle state of Bareos tape volumes via the
 # PostgreSQL catalog and returns monitoring status plus performance data
 # for recycle count, mount count, write errors, tape age, and volume status.

@@ -4,6 +4,10 @@
 #
 # Wrapper for check_bareos_tape.py via NRPE
 #
+# Copyright (C) 2026 Manuel Sonder
+#
+# SPDX-License-Identifier: MIT
+#
 # This script executes a remote check for Bareos tape volume lifecycle
 # using the check_bareos_tape.py plugin on a remote host via NRPE.
 #
